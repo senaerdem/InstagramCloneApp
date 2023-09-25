@@ -21,6 +21,8 @@
 		5DE54E392AC1BCC70037CC24 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E382AC1BCC70037CC24 /* ProfileController.swift */; };
 		5DE54E3B2AC1C8980037CC24 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E3A2AC1C8980037CC24 /* FeedCell.swift */; };
 		5DE54E3D2AC1C9D70037CC24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E3C2AC1C9D70037CC24 /* Extensions.swift */; };
+		5DE54E402AC1DA220037CC24 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E3F2AC1DA220037CC24 /* LoginController.swift */; };
+		5DE54E422AC1DA340037CC24 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E412AC1DA340037CC24 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		5DE54E382AC1BCC70037CC24 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		5DE54E3A2AC1C8980037CC24 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		5DE54E3C2AC1C9D70037CC24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5DE54E3F2AC1DA220037CC24 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5DE54E412AC1DA340037CC24 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		5DE54E2A2AC1B9E60037CC24 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5DE54E3E2AC1DA070037CC24 /* Authentication */,
 				5DE54E2E2AC1BA650037CC24 /* MainTabController.swift */,
 				5DE54E362AC1BCB90037CC24 /* NotificationControoler.swift */,
 				5DE54E302AC1BC7C0037CC24 /* FeedController.swift */,
@@ -137,6 +142,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5DE54E3E2AC1DA070037CC24 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5DE54E3F2AC1DA220037CC24 /* LoginController.swift */,
+				5DE54E412AC1DA340037CC24 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE54E192AC1B9850037CC24 /* ViewController.swift in Sources */,
+				5DE54E402AC1DA220037CC24 /* LoginController.swift in Sources */,
 				5DE54E3B2AC1C8980037CC24 /* FeedCell.swift in Sources */,
 				5DE54E352AC1BCA60037CC24 /* ImageSelectorController.swift in Sources */,
 				5DE54E332AC1BC8E0037CC24 /* SearchController.swift in Sources */,
@@ -221,6 +236,7 @@
 				5DE54E2F2AC1BA650037CC24 /* MainTabController.swift in Sources */,
 				5DE54E3D2AC1C9D70037CC24 /* Extensions.swift in Sources */,
 				5DE54E172AC1B9850037CC24 /* SceneDelegate.swift in Sources */,
+				5DE54E422AC1DA340037CC24 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
