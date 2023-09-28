@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DC45E632AC5E98F001807E1 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC45E622AC5E98F001807E1 /* AuthenticationViewModel.swift */; };
 		5DE54E152AC1B9850037CC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E142AC1B9850037CC24 /* AppDelegate.swift */; };
 		5DE54E172AC1B9850037CC24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E162AC1B9850037CC24 /* SceneDelegate.swift */; };
 		5DE54E192AC1B9850037CC24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE54E182AC1B9850037CC24 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DC45E622AC5E98F001807E1 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		5DE54E112AC1B9850037CC24 /* InstagramCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE54E142AC1B9850037CC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE54E162AC1B9850037CC24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		5DE54E2B2AC1B9EE0037CC24 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5DC45E622AC5E98F001807E1 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				5DE54E3B2AC1C8980037CC24 /* FeedCell.swift in Sources */,
 				5DE54E352AC1BCA60037CC24 /* ImageSelectorController.swift in Sources */,
 				5DE54E332AC1BC8E0037CC24 /* SearchController.swift in Sources */,
+				5DC45E632AC5E98F001807E1 /* AuthenticationViewModel.swift in Sources */,
 				5DE54E152AC1B9850037CC24 /* AppDelegate.swift in Sources */,
 				5DE54E312AC1BC7C0037CC24 /* FeedController.swift in Sources */,
 				5DE54E392AC1BCC70037CC24 /* ProfileController.swift in Sources */,
